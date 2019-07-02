@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="487.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.isj.interfaces.controller.EmplacementFichierController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="anchorid" layoutX="90.0" layoutY="89.0" prefHeight="234.0" prefWidth="397.0">
+         <children>
+            <Button layoutX="277.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="111.0" text="Parcourir" />
+            <TextField fx:id="parcourir" layoutX="50.0" layoutY="92.0" prefHeight="25.0" prefWidth="213.0" />
+            <Label layoutX="50.0" layoutY="50.0" prefHeight="17.0" prefWidth="197.0" text="Choissisez l'emplacement du fichier" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
